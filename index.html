@@ -1,0 +1,2421 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ <meta charset="utf-8">
+
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+<style type="text/css">
+	
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{overflow-x: hidden;}
+nav{background: black;height: 70px;}
+
+nav ul li{font-size: 18px;padding: 12px;}
+
+nav .navbar-brand{font-size: 29px;font-family: 'Abril Fatface', cursive;}
+
+#bnleft{position: relative;left: 530px;}
+
+
+#caro2{height: 28%;width: 50%;position: relative;left: 530px;}
+
+.abthead{color: white;font-size: 50px;font-weight: bold;}
+
+.abtpr{color: rgb(153, 153, 153);font-size: 18px;}
+
+
+
+.prtf li{list-style: none;font-size: 18px;padding: 8px;}
+
+
+.prtf li span{color: white;font-size: 18px;}
+
+
+li span{margin-right: 15px;}
+
+li #sp2{color: rgb(153, 153, 153);}
+
+.prjt{font-size: 23px;padding-top: 8px;padding-left: 14px;color: white;}
+
+.count{margin-right: 14px;}
+
+#cv{border-radius: 50px;height: 50px;width: 33%;color: black;margin-left: 10px;margin-top: 10px;}s
+
+.rshead{margin-top: 70px;font-size: 50px;font-weight: bold;color: white;}
+
+
+.rspara{font-size: 18px;margin-top: 30px;color: rgb(153, 153, 153);}
+
+
+#crd1{background: #1f1714;}
+
+#thousand{font-weight: bolder;}
+
+
+#master{color: white;padding-top: 10px;padding-bottom: 10px;}
+
+
+#uni{color:rgb(153, 153, 153);font-size: 11px;word-spacing: 1px;letter-spacing: 4px;font-weight: bold; }
+
+.card-text{font-size: 18px;padding-top: 22px;color:rgb(153, 153, 153); }
+
+.card{height: 330px;}
+
+
+#cvbutn2{width: 22%;height: 65px;border-radius: 50px;color: black;font-weight: bold;position: relative;left: 370px;top: 80px;}
+
+
+.servhead{color: white;font-size: 50px;font-weight: bold;}
+
+
+.srvpara{font-size: 18px;padding-top: 15px;color:rgb(153, 153, 153);}
+
+.card-body i{font-size: 40px;padding-left: 95px;padding-top: -4px;color: orange;}
+
+
+
+.card-columns .card{background: #1f1714;height:220px; }
+
+.card-columns .card h4{color: white;font-size: 19px;word-spacing: 4px;display: flex;justify-content: center;align-items: center;padding-top: 30px;}
+
+
+
+.progress-wrap h3{font-size: 20px;color: white;}
+
+.progress-wrap #ngt{margin-left: 341px;margin-top: -30px;color: white;font-size: 22px;}
+
+#efv{margin-left: 325px;margin-top: -30px;color: white;font-size: 22px;}	
+
+#nfv{margin-left: 371px;margin-top: -30px;color: white;font-size: 22px;}
+
+
+#nghtt{margin-left: 350px;margin-top: -30px;color: white;font-size: 22px;}
+
+#svt{margin-left: 262px;margin-top: -30px;color: white;font-size: 22px;}
+
+
+#eght{margin-left: 309px;margin-top: -30px;color: white;font-size: 22px;}
+
+
+.myskl{color: white;font-size: 48px;font-weight: bold;}
+.mysklp{color:rgb(153, 153, 153);font-size: 18px; }
+
+
+.our{color: white;font-size: 50px;font-weight: bold;}
+
+.ourp{color:rgb(153, 153, 153);font-size: 18px;}
+
+#left{position: relative;}
+
+
+#grl{display: block;height: auto;}
+
+
+#overlay{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 90%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;}
+
+
+#left:hover #overlay{height: 100%;}
+
+#overlay h1{color: white;font-size: 29px;text-align: center;}
+
+#overlay p{color: white;font-size: 16px;text-align: center;}
+
+
+
+
+#lap{position: relative;}
+
+
+#typ{display: block;height: auto;}
+
+
+#overlay2{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 95%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;object-fit: cover;}
+
+
+#lap:hover #overlay2{height: 100%;}
+
+#overlay2 h1{color: white;font-size: 35px;text-align: center;}
+
+#overlay2 p{color: white;font-size: 16px;text-align: center;margin-top: 10px;}
+
+
+
+#lap3{position: relative;}
+
+
+#typ3{display: block;height: auto;}
+
+
+#overlay3{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 95%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;object-fit: cover;}
+
+
+#lap3:hover #overlay3{height: 100%;}
+
+#overlay3 h1{color: white;font-size: 35px;text-align: center;}
+
+#overlay3 p{color: white;font-size: 16px;text-align: center;margin-top: 10px;}
+
+
+#left4{position: relative;}
+
+
+#grl4{display: block;height: auto;}
+
+
+#overlay4{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 90%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;}
+
+
+#left4:hover #overlay4{height: 100%;}
+
+#overlay4 h1{color: white;font-size: 29px;text-align: center;}
+
+#overlay4 p{color: white;font-size: 16px;text-align: center;margin-top: 15px;}
+
+
+
+#lap6{position: relative;}
+
+
+#typ6{display: block;height: auto;}
+
+
+#overlay6{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 95%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;object-fit: cover;}
+
+
+#lap6:hover #overlay6{height: 100%;}
+
+
+#overlay6 h1{color: white;font-size: 35px;text-align: center;color: white;}
+
+#overlay6 p{color: white;font-size: 16px;text-align: center;}
+
+
+
+
+
+
+
+#left7{position: relative;}
+
+
+#grl7{display: block;height: auto;}
+
+
+#overlay7{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 90%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;}
+
+
+#left7:hover #overlay7{height: 100%;}
+
+#overlay7 h1{color: white;font-size: 29px;text-align: center;color: white;}
+
+#overlay7 p{color: white;font-size: 16px;text-align: center;}
+
+
+h4{text-align: center;}
+h4 i{text-align: center;}
+
+
+
+
+
+
+
+.blg{color: white;font-size: 50px;font-weight: bold;}
+
+.blgp{color:rgb(153, 153, 153);font-size: 18px;line-height:33px;}
+
+.jne{font-size: 15px;word-spacing: 1px;font-weight: bold;}
+
+
+.lead{color: white;font-weight: bold;font-size: 23px;line-height: 33px;}
+
+
+.leadp{color: rgb(153, 153, 153);font-size: 18px;padding-top: 9px;}
+
+
+.hundrd{font-size: 35px;font-weight: bold;padding-top: 14px;}
+
+.awrds{font-size: 17px;font-weight: bold;color:rgb(153, 153, 153); }
+
+
+.col-lg-3 .card{background:  #1f1714;}
+.content{position: relative;top: -150px;}
+.content h1{font-size: 48px;font-weight: bold;}
+
+
+.frlnp{font-size: 18px;padding-top: 5px;}
+
+
+#hire{width: 22%;height: 48px;border-radius: 40px;font-size: 13px;font-weight: bold;}
+
+
+.cntme{color: white;font-size: 49px;font-weight: bold;}
+
+.cntpa{color:rgb(153, 153, 153);font-size: 18px; }
+
+
+#golbal i{padding-top:40px; ;font-size: 25px;}
+
+
+.adrs{color: white;font-size: 17px;font-weight: bold;margin-left: -105px;}
+.adrp{margin-left: -105px;color: rgb(153, 153, 153);font-size: 17px;}
+
+.num{margin-left: -100px;color: white;font-weight: bold;font-size: 17px;}
+.nump{margin-left: -100px;color: white;font-size: 17px;}
+
+.form-control{width: 85%;height: 50px;border-radius: 0px;margin-left: 30px;}
+
+textarea{margin-left: 30px;}
+
+#send{margin-left: 30px;width: 40%;height: 50px;border-radius: 40px;}
+
+
+.fabut{color: white;font-size: 25px;font-weight: bold;}
+
+.ftprg{color: rgb(153, 153, 153);font-size: 17px;word-spacing: 2px;line-height: 28px;}
+
+
+.lnkhed{font-size: 25px;color: white;font-weight: bold;margin-left: 43px;}
+
+
+.lnk li{margin-left: 30px;font-size: 18px;color:rgb(153, 153, 153);list-style: none;padding: 8px; }
+
+.qstn{color: white;font-size:23px;color: white;font-weight: bold;}
+
+.qss li{color:margin-left: 30px;font-size: 18px;color:rgb(153, 153, 153);list-style: none;padding: 3px;  }
+
+
+
+.lnkser{font-size: 24px;color: white;font-weight: bold;}
+
+.lnksr li{font-size: 18px;list-style: none;margin-left: -10px;color:rgb(153, 153, 153);list-style: none;padding: 8px;}
+
+
+.lstp{font-size: 18px;color:rgb(153, 153, 153);}
+
+
+.hel{}
+
+.london{color: white;font-size: 63px;font-weight: bolder;}
+
+
+#hire{width: 25%;margin-right: 10px;border: none;}
+
+#mwrk{width: 25%;height: 50px;border: none;border-radius: 40px;font-size: 13px;font-weight: bold;}
+
+
+@media(max-width: 768px){
+
+.navbar{background:black; 
+	;padding: 4px;color: white;}
+
+
+nav ul li{padding: 0px;background: black;margin-left: 10px;}
+
+
+#bighead h1{font-size: 59px;}
+
+
+#hire{margin-top: 20px;width: 19%;}
+
+#mwrk{width: 19%;font-size: 12px;font-weight: bold;}
+
+#profes{margin-top: 70px;}
+
+.abthead{font-size: 39px;margin-top: 44px;}
+.resm{margin-top: 79px;}
+
+#rsms{position: relative;top: 400px;z-index: 1;}
+
+
+#startdiv{margin-top: 420px;}
+
+.rshead{font-size: 40px;}
+
+#art{margin-top: 23px;}
+
+
+#pres{margin-top: 23px;}
+
+#ux{margin-top: 23px;}
+
+
+#cvbutn2{margin-left: -233px;width: 40%;}
+
+.servhead{font-size: 40px;}
+
+
+#conct{margin-left: -79px;}
+
+
+.myskl{font-size: 40px;}
+
+
+.our{font-size: 40px;}
+
+
+
+#left{position: relative;}
+
+
+#grl{display: block;height: auto;}
+
+
+#overlay{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 93%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;}
+
+
+#left:hover #overlay{height: 100%;}
+
+#overlay h1{color: white;font-size: 33px;text-align: center;margin-top: 20px;}
+
+#overlay p{color: white;font-size: 17px;}
+
+
+#lap{margin-top: 30px;}
+
+
+#lap{position: relative;}
+
+
+#typ{display: block;height: auto;}
+
+
+#overlay2{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 93%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;object-fit: cover;}
+
+
+#lap:hover #overlay2{height: 100%;}
+
+#overlay2 h1{color: white;font-size: 33px;text-align: center;}
+
+#overlay2 p{color: white;font-size: 17px;}
+
+
+
+
+
+#lap3{margin-top: -20px;}
+
+
+#lap3{position: relative;}
+
+
+#typ3{display: block;height: auto;}
+
+
+#overlay3{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 93%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;object-fit: cover;}
+
+
+#lap3:hover #overlay3{height: 100%;}
+
+#overlay3 h1{color: white;font-size: 33px;text-align: center;}
+
+#overlay3 p{color: white;font-size: 17px;}
+
+
+
+#left4{margin-top: 30px;}
+
+#left4{position: relative;}
+
+
+#grl4{display: block;height: auto;}
+
+
+#overlay4{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 93%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;}
+
+
+#left4:hover #overlay4{height: 100%;}
+
+#overlay4 h1{color: white;font-size: 34px;text-align: center;}
+
+#overlay4 p{color: white;font-size: 18px;}
+
+
+
+
+#lap6{margin-top: -20px;}
+
+
+#lap6{position: relative;}
+
+
+#typ6{display: block;height: auto;}
+
+
+#overlay6{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 93%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;object-fit: cover;}
+
+
+#lap6:hover #overlay6{height: 100%;}
+
+#overlay6 h1{color: white;font-size: 33px;text-align: center;}
+
+#overlay6 p{color: white;font-size: 17px;}
+
+
+#left7{margin-top: 30px;}
+
+#left7{position: relative;}
+
+
+#grl7{display: block;height: auto;}
+
+
+#overlay7{position: absolute;bottom: 0;left: 0;right: 0;background-color: orange;opacity:.8;width: 93%;height: 0;transition: 1s;overflow: hidden;margin-left: 16px;}
+
+
+#left7:hover #overlay7{height: 100%;}
+
+#overlay7 h1{color: white;font-size: 35px;text-align: center;}
+
+#overlay7 p{color: white;font-size: 17px;}
+
+
+
+#cl2{margin-top: 33px;}
+#cl3{margin-top: 33px;}
+
+
+#smaltp{margin-top: -94px;}
+
+
+#cmlt{margin-top: 20px;}
+
+
+.carousel-slide{margin-top: 100px;}
+
+.carousel-slide img{height: 450px;}
+
+.carousel-caption .content{position: relative;top: -30px;}
+
+
+#avbl{font-size: 40px;}
+
+#frln{font-size: 40px;}
+
+.frlnp{font-size: 16px;}
+
+
+#hire{width: 30%;}
+
+#mwrk{width: 30%;}
+
+.cntme{font-size: 40px;}
+
+
+#golbal .col-lg-3{margin-left: 110px;height: 265px;width: 55%;}
+
+
+#number{margin-top: 60px;}
+
+
+
+#ftrr{height: 1700px;}
+
+
+#abtsec{margin-top: 490px;width: 100%;padding: 0px;}
+
+
+.ftprg{}
+
+
+.lnk{margin-left: -40px;}
+
+
+.lstp{position: relative;top: -80px;}
+
+
+#send{width: 86%;margin-bottom: 30px;}
+
+#ftfrm{margin-left: 16px;margin-right: 16px;}
+
+
+.blg{font-size: 41px;}
+
+
+
+#query{position: relative;top: 10px;}
+
+#css3{position: relative;top: -12px;}
+
+#wrdress{position: relative;top: -23px;}
+
+#seo{position: relative;top: -31px;}
+
+
+
+}
+
+
+
+</style>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+</head>
+<body style="background: black;">
+
+<nav class="navbar navbar-expand-lg navbar sticky-top 
+">
+	
+<a href="#"class="navbar-brand text-white">CLARK</a>
+
+<button class="navbar-toggler"data-toggle="collapse"data-target="#tgl"><span class="navbar-toggler-icon"></span></button>
+
+<div class="collapse navbar-collapse"id="tgl">
+	
+<ul class="navbar-nav ml-auto ">
+	
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">Home</a></li>
+
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">About</a></li>
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">Resume</a></li>
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">Services</a></li>
+
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">Skills</a></li>
+
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">Projects</a></li>
+
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">My Blog</a></li>
+
+
+
+<li class="nav-item"><a href="#"class="nav-link text-warning">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+
+
+
+
+<div class="container">
+	
+<div class="row">
+	
+
+<div class="col-lg-6"id="bighead"data-aos="fade-right">
+<br>
+<br>
+<br>
+
+	
+<span class="hel text-warning"class="">HELLO!</span>
+
+<br>
+<br>
+
+<h1 class="london">i'm <span class="text-warning">web</span><span class="text-warning"> designer</span> based in India</h1>
+
+<br>
+<br>
+
+<button id="hire"class="bg-warning">HIRE ME</button><button id="mwrk">MY WORKS</button>
+
+
+
+
+</div>
+
+<div class="col-lg-6">
+	
+<img src="ban4.png"id="profes"data-aos="fade-up">
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<br>
+<br>
+
+<br>
+
+
+
+<div class="container">
+<div class="row"style="height: 450px;"data-aos="fade-right">
+	
+
+<div class="col-lg-6"class="about">
+	
+
+<img src="ban10.jpg"class="w-100"class="abtmg"style="height: 390px;width: 100%;">
+</div>
+
+
+
+<div class="col-lg-6"class="abt2">
+	
+<h1 class="abthead">About Me</h1>
+
+
+<p class="abtpr">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+<br>
+
+
+
+<ul class="prtf">
+	
+
+<li><span>Name:</span><span id="sp2">
+Clark Thompson</span></li>
+
+
+<li><span>Date of birth:</span><span id="sp2">
+January 01, 1987</span></li>
+
+
+<li><span>Address:</span>
+<span id="sp2" >San Francisco CA 97987 USA</span></li>
+
+
+
+
+<li><span>Zip code:</span><span id="sp2">
+1000</span></li>
+
+
+<li><span>Email:</span>
+<span id="sp2">clarkthomp@gmail.com</span></li>
+
+
+
+<li><span>Phone:</span>
+<span id="sp2">+1-2234-5678-9-0</span></li>
+
+
+</ul>
+
+<h5 class="prjt"><span class="count text-warning">120</span> Project complete</h5>
+
+<br>
+<br>
+
+<button class="btn btn-warning text-monospace text-black"id="cv">DOWNLOAD CV</button>
+
+</div>
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="row m-0"id="rsms">
+	
+<div class="col-lg-12 text-center"class="resm">
+	
+<h1 class="rshead"style="color: white">Resume</h1>
+
+
+<p class="rspara">A small river named Duden flows by their place and supplies it with the necessary regelialia. <br>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<!---resume start here--->
+
+
+<div class="container"data-aos="fade-up">
+	
+<div class="row"id="startdiv">
+
+<!--first div resume-->
+	
+<div class="col-lg-6">
+	
+
+<div class="card "id="crd1">
+	
+<div class="card-body">
+	
+<h3 id="thousand"class="text-warning">2014-2015</h3>
+
+<h3 id="master">Master Degree of Design</h3>
+
+
+<h6 id="uni">CAMBRIDGE UNIVERSITY</h6>
+
+
+<p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<!--second div resume start-->
+
+
+<div class="col-lg-6"id="art">
+	
+
+<div class="card"id="crd1">
+	
+<div class="card-body">
+
+
+
+
+<h3 id="thousand"class="text-warning">2014-2015</h3>
+
+<h3 id="master">Art & Creative Director</h3>
+
+
+<h6 id="uni">CAMBRIDGE UNIVERSITY</h6>
+
+
+<p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+	
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<!---third div card resume---->
+
+
+
+
+<div class="row mt-4">
+	
+<div class="col-lg-6">
+	
+
+<div class="card "id="crd1">
+	
+<div class="card-body">
+	
+
+<h3 id="thousand"class="text-warning">2014-2015</h3>
+
+<h3 id="master">Bachelor's Degree of C.A</h3>
+
+
+<h6 id="uni">CAMBRIDGE UNIVERSITY</h6>
+
+
+<p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<!---four div card resume---->
+
+
+
+<div class="col-lg-6"id="pres">
+	
+
+<div class="card "id="crd1">
+	
+<div class="card-body">
+	
+
+<h3 id="thousand"class="text-warning">2014-2015</h3>
+
+<h3 id="master">Wordpress Developer</h3>
+
+
+<h6 id="uni">CAMBRIDGE UNIVERSITY</h6>
+
+
+<p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<!--five div card start--->
+
+
+<div class="row mt-4">
+	
+<div class="col-lg-6">
+	
+
+<div class="card"id="crd1">
+	
+<div class="card-body">
+	
+
+
+<h3 id="thousand"class="text-warning">2014-2015</h3>
+
+<h3 id="master">Diploma in Computer</h3>
+
+
+<h6 id="uni">CAMBRIDGE UNIVERSITY</h6>
+
+
+<p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+<!---six div card resume---->
+
+
+<div class="col-lg-6"id=
+ux>
+	
+
+<div class="card"id="crd1">
+	
+<div class="card-body">
+	
+
+
+
+<h3 id="thousand"class="text-warning">2014-2015</h3>
+
+<h3 id="master">UI/UX Designer</h3>
+
+
+<h6 id="uni">CAMBRIDGE UNIVERSITY</h6>
+
+
+<p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<button class="btn btn-warning text-monospace"id="cvbutn2">DOWNLOAD CV</button>
+
+</div>
+
+</div>
+
+
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="row m-0">
+	
+
+<div class="col-lg-12 text-center">
+	
+
+<h1 class="servhead">Services</h1>
+
+
+
+<p class="srvpara">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+
+<br>
+
+
+ Vokalia and Consonantia
+
+</p>
+
+</div>
+
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+<div class="container">
+	
+
+<div class="row m-0"data-aos="fade-right">
+	
+<div class="col-lg-12">
+	
+<div class="card-columns">
+	
+<div class="card"class="icon1">
+
+	
+<div class="card-body">
+	
+<i class="fab fa-atlassian text-warning"id="conct"style="margin-left: 45px"></i>
+
+
+<h4 class="web">WEB DESIGN</h4>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+	
+<div class="card-body">
+	
+<i class="fas fa-graduation-cap text-warning"id="conct"style="margin-left: 40px"></i>
+<h4 class="web">WEB DEVLOPING</h4>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+	
+<div class="card-body">
+	
+<i class="fas fa-laptop-code text-warning"id="conct"style="margin-left: 40px"></i>
+
+
+
+<h4 class="dev">WEB DEVLOPER</h4>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+	
+<div class="card-body">
+	
+
+
+<i class="fab fa-aws text-warning"id="conct"style="margin-left: 40px"></i>
+
+
+
+<h4 class="brand">BRANDING</h4>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+	
+<div class="card-body"><i class="fas fa-cannabis text-warning"id="conct"style="margin-left: 40px"></i>
+
+
+
+<h4 class="photo">PHOTOGRAPHY</h4>
+
+
+
+</div>
+
+
+
+</div>
+
+
+<div class="card">
+
+	
+<div class="card-body">
+	
+<i class=" fas fa-handshake text-warning"id="conct"style="margin-left: 40px"></i>
+
+
+
+<h4 class="photo">PRODUCT STRETAGY</h4>
+
+
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!--start skills section-->
+
+<div class="container">
+	
+<div class="col-lg-12 text-center ">
+	
+<h1 class="myskl">My Skills</h1>
+
+<br>
+
+<p class="mysklp">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<div class="container">
+	
+
+<!--div class="row m-0">
+
+
+
+<div class="col-lg-6">
+	
+<div class="card"id="prgs">
+	
+<div class="card-body">
+	
+
+<h5>Photoshop</h5><h5 style="position: relative;top: -30px;left: 370px;">50%</h5>
+
+<div class="progress"> <div class="progress-bar bg-warning" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div> </div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+</div--->
+
+
+
+<!--close first-->
+
+
+
+
+
+<!--div class="col-lg-6">
+	
+<div class="card">
+	
+<div class="card-body">dfdagadgdgdfgfg</div>
+
+
+</div>
+</div>
+</div>
+
+</div--->
+
+
+
+<div class="container">
+
+<div class="row"data-aos="fade-left">
+	
+
+<div class="col-md-6 animate-box"style="margin-top: 23px;">
+
+<br>
+		<div class="progress-wrap ftco-animate fadeInUp ftco-animated"style="height: 10px;">							<h3>Photoshop</h3><h6 id="ngt">90%</h6>	<div class="progress"style="height: 11px;">					 	<div class="progress-bar bg-warning"aria-valuemax="100" style="width:90%">					    					  	</div>	</div>		</div>
+					</div>
+
+
+
+
+
+<div class="col-md-6 animate-box"style="margin-top: 23px;"id="query">
+
+<br>					<div class="progress-wrap ftco-animate fadeInUp ftco-animated">				<h3>jQuery</h3><h6 id="efv">85%</h6>
+							<div class="progress"style="height: 11px;">
+							 	<div class="progress-bar bg-warning" aria-valuemax="100" style="width:85%">
+							    
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+<div class="col-md-6 animate-box"style="margin-top: 10px;">
+
+
+
+<br>
+
+						<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+							<h3>HTML5</h3><h6 id="nfv">95%</h6>
+							<div class="progress"style="height: 11px;">
+							 	<div class="progress-bar bg-warning"  aria-valuemax="100" style="width:95%">
+							    
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+<div class="col-md-6 animate-box"style="margin-top: 10px;"id="css3">
+
+					<br>
+
+
+						<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+							<h3>CSS3</h3><h6 id="nghtt">90%</h6>
+							<div class="progress"style="height: 11px;">
+							 	<div class="progress-bar bg-warning" aria-valuemax="100" style="width:90%">
+							    
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+<div class="col-md-6 animate-box"style="margin-top: 10px;"id="wrdress">
+
+<br>
+
+						<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+							<h3>WordPress</h3><h6 id="svt">70%</h6>
+							<div class="progress"style="height: 11px;">
+							 	<div class="progress-bar bg-warning"  aria-valuemax="100" style="width:70%">
+							   
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+<div class="col-md-6 animate-box"style="margin-top: 10px;"id="seo">
+
+					<br>
+
+
+						<div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+							<h3>SEO</h3><h6 id="eght">80%</h6>
+							<div class="progress"style="height: 11px;">
+							 	<div class="progress-bar bg-warning"  aria-valuemax="100" style="width:80%">
+							   
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!--start our project section---->
+
+<div class="container">
+	
+
+<div class="row">
+	
+
+<div class="col-lg-12 text-center">
+	
+
+<h1 class="our">Our Projects</h1>
+
+<br>
+
+
+<p class="ourp">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<br>
+<br>
+
+<br>
+
+
+
+<div class="container">
+	
+<div class="row">
+<div class="col-lg-4 "id="left">
+	
+
+<img src="art8.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="grl">
+
+<div id="overlay">
+	
+
+<br>
+	
+<h1>Branding and & ilustrator Web Desigen</h1>
+
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore aliqua. 
+quis nostrud</p>
+
+
+
+
+
+	
+</div>
+
+</div>
+
+<div class="col-lg-8 "id="lap">
+	
+<img src="art7.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="typ">
+
+
+<div id="overlay2">
+	
+<br>
+	
+<h1>Branding and & ilustrator Web Desigen</h1>
+
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore aliqua. 
+quis nostrud
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore 
+ consectetur adipisicing elit, sed do 
+tempor</p>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+<br>
+<br>
+
+<div class="container">
+	
+<div class="row">
+	
+<div class="col-lg-8"id="lap3">
+	
+
+<img src="art14.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="typ3">
+
+
+<div id="overlay3">
+	
+
+
+<br>
+	
+<h1>Branding and & ilustrator Web Desigen</h1>
+
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore aliqua. 
+quis nostrud
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore 
+ consectetur adipisicing elit, sed do 
+tempor</p>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-lg-4"id="left4">
+	
+
+<img src="art10.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="grl4">
+
+
+
+<div id="overlay4">
+
+<br>
+	
+<h1>Branding and & ilustrator Web Desigen</h1>
+
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore aliqua. 
+quis nostrud</p>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<br>
+<br>
+
+
+<!--div class="container">
+<div class="row ">
+	
+<div class="col-lg-8"id="lap7">
+	
+
+<img src="art2.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="typ7">
+
+
+<div id="overlay7">
+	
+dfasdfadsadsfadsf
+
+</div>
+
+</div>
+
+
+
+<div class="col-lg-4"id="left6">
+	
+
+<img src="ban5.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="grl6">
+
+
+
+
+<div id="overlay6">
+	
+fadsfsdfasdfdsafdsa
+</div>
+</div>
+</div>
+</div--->
+
+
+<div class="container">
+	
+<div class="row">
+	
+<div class="col-lg-8"id="lap6">
+	
+
+<img src="art2.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="typ6">
+
+
+<div id="overlay6">
+	
+<br>
+	
+<h1>Branding and & ilustrator Web Desigen</h1>
+
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore aliqua. 
+quis nostrud
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore 
+ consectetur adipisicing elit, sed do 
+tempor</p>
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="col-lg-4"id="left7">
+	
+
+<img src="ban5.jpg"class="w-100"style="height: 300px;object-fit: cover;"id="grl7">
+
+
+
+<div id="overlay7">
+	
+<br>
+	
+<h1>Branding and & ilustrator Web Desigen</h1>
+
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+tempor incididunt ut labore et dolore aliqua. 
+quis nostrud</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="container">
+	
+
+<div class="row">
+	
+
+<div class="col-lg-12 text-center">
+	
+
+<h1 class="blg">Our Blog</h1>
+
+<br>
+
+<p class="blgp">Far far away, behind the word mountains, far from <br> countries Vokalia and Consonantia</p>
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+
+
+<div class="container">
+	
+
+<div class="row">
+	
+
+<div class="col-lg-4"id="cl1">
+	
+
+<img src="art2.jpg"class="w-100"style="height: 380px;object-fit: cover;">
+
+
+<div class="row">
+
+
+<div class="col-lg-12">
+	
+<br>
+
+<span class="jne text-warning text-monospace">JUNE 21, 2019 ADMIN</span><i class="fas fa-comment-alt text-warning ml-3"></i>
+
+
+
+
+
+<br>
+<br>
+
+<h3 class="lead">Why Lead Genration is Key for Buisness Growth</h3>
+
+
+<p class="leadp">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+<div class="col-lg-4"id="cl2">
+	
+
+<img src="blog1.jpg"class="w-100"style="height: 380px;object-fit: cover;">
+
+
+
+
+<div class="row">
+
+
+<div class="col-lg-12">
+	
+<br>
+
+<span class="jne text-warning text-monospace">JUNE 21, 2019 ADMIN</span><i class="fas fa-comment-alt text-warning ml-3"></i>
+
+<br>
+<br>
+
+<h3 class="lead">Why Lead Genration is Key for Buisness Growth</h3>
+
+
+<p class="leadp">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="col-lg-4"id="cl3">
+	
+
+<img src="art11.jpg"class="w-100"style="height: 380px;object-fit: cover;">
+
+
+
+
+<div class="row">
+
+
+<div class="col-lg-12">
+	
+<br>
+
+<span class="jne text-warning text-monospace font-weight-normal">JUNE 21, 2019 ADMIN</span><i class="fas fa-comment-alt text-warning ml-3"></i>
+
+<br>
+<br>
+
+<h3 class="lead">Why Lead Genration is Key for Buisness Growth</h3>
+
+
+<p class="leadp">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<div class="container"id="smaltp">
+	
+<div class="row m-0 text-center"style="position: relative;top: 70px;z-index: 1;">
+<div class="col-lg-3">
+	
+
+<div class="card"style="height: 150px;">
+	
+<div class="card-body">
+	
+<h4 class="hundrd text-warning">100</h4>
+
+<span class="awrds">Awards</span>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<!--close first project card-->
+
+
+
+<div class="col-lg-3"id="cmlt">
+	
+
+<div class="card"style="height: 150px;">
+	
+<div class="card-body">
+	
+
+
+	
+<h4 class="hundrd text-warning">1,200</h4>
+
+<span class="awrds">Complete Projects</span>
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<div class="col-lg-3"id="cmlt">
+	
+
+<div class="card"style="height: 150px;">
+	
+<div class="card-body">
+	
+
+	
+<h4 class="hundrd text-warning">1,200</h4>
+
+<span class="awrds">Happy Customers</span>
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<div class="col-lg-3"id="cmlt">
+	
+
+<div class="card"style="height: 150px;">
+	
+<div class="card-body">
+	
+
+
+	
+<h4 class="hundrd text-warning">500</h4>
+
+<span class="awrds">Cups of coffee</span>
+
+
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	
+
+
+	
+
+	
+
+<div class="carousel-slide"data-ride="carousel">
+	
+
+<div class="carousel-inner">
+	
+
+<div class="carousel-item active">
+	
+
+<img src="nature2.jpg"class="w-100"style="opacity: .4">
+
+
+<div class="carousel-caption">
+	
+<div class="content">
+<h1 id="avbl">I'm <span class="text-warning">Available</span> for</h1>
+
+<h1 id="frln">freelancing</h1>
+
+
+<p class="frlnp">A small river named Duden flows by their place and supplies it<br> with the necessary regelialia.</p>
+
+
+
+<button class="btn btn-warning"id="hire">HIRE ME</button>
+
+
+
+
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="container">
+	
+
+<div class="col-lg-12 text-center">
+	
+<h1 class="cntme">Contact Me</h1>
+
+<br>
+<p class="cntpa">Far far away, behind the word mountains, far from the countries<br> Vokalia and Consonantia</p>
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container">
+	
+
+<div class="row ml-5 text-center"id="golbal">
+	
+<div class="col-lg-3 text-warning">
+	
+
+<div class="card"style="width: 50%;height: 45%;border-radius: 50%;"id="rds1">
+	
+
+<i class="fas fa-paper-plane"></i>
+
+
+</div>
+
+<br>
+
+<span class="adrs">ADDRESS</span>
+
+<br>
+<br>
+
+<p class="adrp">198 West 21th Street,<br> Suite 721 New York<br> NY 10016</p>
+
+
+
+</div>
+
+
+
+<div class="col-lg-3 text-warning"id="number">
+	
+<div class="card"style="width: 50%;height: 45%;border-radius: 50%;"><i class="fas fa-phone-alt"></i></div>
+
+<br>
+<span class="num">CONTACT NUMBER</span>
+
+<br>
+<br>
+
+<p class="nump">+ 1235 2355 98</p>
+
+
+
+</div>
+
+
+
+<div class="col-lg-3 text-warning">
+	
+
+<div class="card"style="width: 50%;height: 45%;border-radius: 50%;">
+	
+<i class="fas fa-envelope"></i>
+
+
+</div>
+
+<br>
+<span class="num">EMAIL ADDRESS</span>
+
+<br>
+<br>
+
+<p class="nump">info@yoursite.com</p>
+
+
+
+</div>
+
+
+<div class="col-lg-3 text-warning ">
+	
+
+<div class="card"style="width: 50%;height: 45%;border-radius: 50%;">
+
+
+<i class="fas fa-globe-asia"></i>
+
+
+</div>
+
+<br>
+<span class="num">WEBSITE</span>
+
+<br>
+<br>
+
+<p class="nump">yoursite.com</p>
+
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container">
+	
+<div class="row"style="height: 530px;">
+	
+
+<div class="col-lg-6">
+	
+<img src="ban5.jpg"class="w-100"style="height: 530px;object-fit: cover;">
+
+
+
+</div>
+
+
+<div class="col-lg-6 bg-light"id="ftfrm">
+	
+<form class="form">
+	
+<br>
+<br>
+
+<input type="text" name=""class="form-control"placeholder="Your Name">
+
+<br>
+<input type="mail" name=""class="form-control"placeholder="Your Email">
+
+<br>
+
+<input type="text" name=""class="form-control"placeholder="Subject">
+
+<br>
+
+<textarea style="width: 85%;height: 160px;">
+
+</textarea>
+
+<br>
+<br>
+
+<button class="btn btn-warning"id="send">Send Massage</button>
+
+</form>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container"id="ftrr">
+
+<div class="row m-0"style="height: 430px;">
+	
+
+<div class="col-lg-3"id="abtsec">
+	
+<span class="fabut">About</span>
+
+
+<br>
+<br>
+
+<p class="ftprg">Far far away, behind the <br>word mountains, far from <br>the countries Vokalia and<br> Consonantia, there live<br> the blind texts.</p>
+
+
+
+
+</div>
+
+
+<div class="col-lg-3">
+	
+<ul class="lnk">
+	
+<span class="lnkhed">Links</span>
+
+<br>
+<br>
+
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Home</li>
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+About</li>
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Services</li>
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Projects</li>
+
+
+
+<li>
+
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Contact</li>
+
+
+</ul>
+
+
+
+</div>
+
+
+
+
+<div class="col-lg-3">
+	
+
+<ul class="lnksr">
+	
+<span class="lnkser">Services</span>
+
+<br>
+<br>
+
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Web Design</li>
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+3D Animation</li>
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Business Strategy</li>
+
+
+<li>
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Data Analysis</li>
+
+
+
+<li>
+
+
+<i class="fas fa-long-arrow-alt-right"></i>
+
+
+Graphic Design</li>
+
+
+</ul>
+
+
+
+
+</div>
+
+
+
+<div class="col-lg-3">
+
+<ul class="qss">	
+<span class="qstn">Have a Questions?</span>
+
+<br>
+<br>
+
+<li><i class="fas fa-map-marker-alt text-white"></i>
+
+	203 Fake St.<br> Mountain View, San<br> Francisco, California, USA</li>
+
+
+
+<li> <i class="fas fa-phone-alt"></i>   +2 392 3929 210
+</li>
+
+
+
+
+
+<li>
+
+<i class="fas fa-envelope"></i>info@yourdomain.com
+
+
+
+</li>
+
+
+
+
+</ul>
+
+</div>
+
+
+<i class="fab fa-twitter-square text-light"style="margin-left: 20px;font-size: 40px;"></i><i class="fab fa-facebook-square text-light"style="margin-left: 20px;font-size: 40px;"></i><i class="fab fa-instagram-square text-light"style="margin-left: 20px;font-size: 40px;"></i>
+
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+	
+<div class="row">
+	
+
+<div class="col-lg-12 text-center">
+	
+<p class="lstp">Copyright ©2021 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Colorlib</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <!-- our aos data -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+        </script>
+</body>
+</html>
